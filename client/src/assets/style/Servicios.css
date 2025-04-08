@@ -1,0 +1,62 @@
+/* Tarjetas de servicios */
+  .servicios-main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 1rem;
+  }
+  
+  .servicio-card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px 10px #4754BA;
+    transition: transform 0.3s;
+  }
+  
+  .servicio-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .servicio-icon {
+    width: 200px;
+    height: 100%;
+  }
+  
+  .servicio-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .servicio-content h2 {
+    color: #4754BA;
+    margin-bottom: 0.5rem;
+  }
+  .servicio-content p {
+    color: #4754BA;
+    text-align: justify;
+    max-width: 400px;
+  }
+  
+  .servicio-btn {
+    background-color: #0A4FFF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .servicio-btn:hover {
+    background-color: #4754BA;
+  }
+  
+  
