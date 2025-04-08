@@ -1,0 +1,76 @@
+/* src/Footer.css */
+.footer {
+    background-color: #05033D;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 1rem;
+  }
+  .footer-section1 {
+    background-image: url('../img/logo.png');
+    margin-top: 40px;
+    background-size: cover; /* Cubre todo el espacio */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita repetición */
+    width: 100%;
+    height: 200px; /* Altura completa del viewport */
+    flex: 1;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .footer-section p {
+    margin: 0.5rem 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;  /* Cambia la dirección a columna */
+    gap: 1rem;
+    align-items: flex-start;     /* Opcional: centra los iconos */
+    /* margin-top: 1rem; */  /* Opcional: añade espacio arriba si es necesario */
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 1.0rem;
+    transition: color 0.3s;
+  }
+  .social-icons i {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #61dafb;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 1px solid #444;
+  }
+
+  .logo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantiene proporciones sin distorsión */
+  }
