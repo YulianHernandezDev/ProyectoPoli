@@ -1,9 +1,11 @@
+import React, { useState } from 'react';
+import Acordeon from '../components/Acordeon';
+
 const Ayuda = () => {
     return (
-      <div>
-        <h1>Nuestros Servicios</h1>
-        {/* Contenido del componente */}
-      </div>
+      <main>
+        <Acordeon />
+      </main>
     );
   };
   
