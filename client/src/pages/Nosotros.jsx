@@ -1,8 +1,13 @@
+import React from 'react';
+import Conocenos from '../components/Conocenos';
+
 const Nosotros = () => {
     return (
       <div>
         <h1>Nuestros Servicios</h1>
-        {/* Contenido del componente */}
+        <div className="page-container">
+          <Conocenos />
+        </div>
       </div>
     );
   };
