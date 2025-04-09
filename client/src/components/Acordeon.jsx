@@ -27,7 +27,6 @@ const FAQAccordion = () => {
 
   return (
     <div className="faq-section">
-      <h2>Preguntas Frecuentes</h2>
       
       <div className="accordion">
         {faqItems.map((item, index) => (

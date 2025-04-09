@@ -1,12 +1,14 @@
-// src/pages/Contacto.jsx
 import React from 'react';
+import Ubicacion from '../components/Ubicacion';
 
 const Contacto = () => {
   return (
-    <div className="contacto">
-      <h1>Contacto</h1>
-      <p>Información de contacto y formulario</p>
-    </div>
+    <div>
+        <h1>Preguntas Frecuentes</h1>
+        <div className="page-container">
+          < Ubicacion/>
+        </div>
+      </div>
   );
 };
 

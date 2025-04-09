@@ -3,9 +3,12 @@ import Acordeon from '../components/Acordeon';
 
 const Ayuda = () => {
     return (
-      <main>
-        <Acordeon />
-      </main>
+      <div>
+        <h1>Preguntas Frecuentes</h1>
+        <div className="page-container">
+          <Acordeon />
+        </div>
+      </div>
     );
   };
   
